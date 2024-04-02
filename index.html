@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    a img {
+      cursor: pointer;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Microsoft YaHei", "微软雅黑", "Heiti SC", "黑体", "SimSun", "宋体", sans-serif;
+      text-underline-offset: 0.2em;
+      font-size: 16px;
+    }
+
+    h1 {
+      font-size: 32px;
+    }
+
+    p {
+      word-wrap: break-word;
+    }
+
+    a {
+      color: white;
+    }
+
+    .avatar {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: left;
+      flex-direction: row;
+      width: 100%;
+    }
+
+    .bottom-content {
+      margin: 48px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: top;
+      align-items: left;
+      gap: 32px;
+
+    }
+
+    .bottom-left {
+      background-color: #154535;
+    }
+
+    .bottom-left h1 {
+      margin: 0 0 8px 0;
+    }
+
+    .bottom-left p {
+      margin: 0 0 8px 0;
+    }
+
+    .bottom-right {
+      background-color: #359676;
+      width: 100%;
+    }
+
+    .left {
+      flex: 0 0 300px;
+    }
+
+    .project {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      gap: 32px;
+      width: 100%;
+    }
+
+    .project-cover {
+      width: 160px;
+      height: 120px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .project-description {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin: 0;
+    }
+
+    .project-description * {
+      margin: 0;
+    }
+
+    .project-scope {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      color: #cccccc;
+      font-family: monospace;
+      gap: 64px;
+    }
+
+    .project-tags {
+      color: #cccccc;
+      font-family: monospace;
+    }
+
+    .right {
+      flex-grow: 4;
+    }
+
+    .root {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      width: 100%;
+      margin: 0;
+    }
+
+    .slanted-background {
+      /* width: 200px;
+      height: 200px; */
+      /* Adjust the angle and colors as needed */
+      background: linear-gradient(290deg, #fad364 30%, #f5c449 30%);
+    }
+
+
+    .top {
+      width: 100%;
+      display: flex;
+      justify-content: left;
+      flex-direction: row;
+    }
+
+    .top-left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .top-right {
+      width: 100%;
+    }
+
+    .top-right-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      margin: 3em;
+    }
+
+    .top-right-name {
+      font-size: 64px;
+      margin: 0;
+    }
+
+    .top-right-alt {
+      font-size: 32px;
+      margin: 8px 0 8px 0;
+    }
+
+    .top-right-role {
+      font-size: 16px;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container root">
+    <div class="container slanted-background top">
+      <div class="container top-left left">
+        <img class="avatar" src="images/avatar.jpg" alt="avatar" />
+      </div>
+      <div class="container top-right right">
+        <div class="top-right-content">
+          <p class="top-right-name">大叶纸熊</p>
+          <p class="top-right-alt">leav</p>
+          <p class="top-right-role">程序熊</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="bottom container">
+    <div class="bottom-left left container">
+      <div class="bottom-content">
+        <div class="section">
+          <h1>关于我</h1>
+          <p>金融科技公司后端程序员</p>
+          <p>平时参加Game Jam和挖坑</p>
+        </div>
+
+
+        <div class="section">
+          <h1>最近爱玩</h1>
+          <p>背包乱斗</p>
+          <p>独角兽之王</p>
+          <p>斯普拉遁3</p>
+          <p>超时空方舟</p>
+        </div>
+
+        <div class="section">
+          <h1>会/做过的</h1>
+          <p>Unity (C#)</p>
+          <p>Godot (C#)</p>
+          <p>2D小体量单机游戏</p>
+          <p>版本控制等程序员基本修养</p>
+        </div>
+
+        <div class="section">
+          <h1>还没试过</h1>
+          <p>进阶渲染管线</p>
+          <p>进阶动画管线</p>
+          <p>进阶音效管线</p>
+          <p>AI</p>
+          <p>联网游戏</p>
+        </div>
+
+        <div class="section">
+          <h1>联系方式</h1>
+          <p>QQ 121058265</p>
+          <a href="https://www.gcores.com/users/324907/talks">机核私信“大叶纸熊”</a>
+          <p style="margin-top:0.4em">美西时区</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="bottom-right right container">
+      <div class="bottom-content">
+        <div class="section">
+          <h1>过往作品</h1>
+        </div>
+
+        <div class="project">
+          <div class="project-cover">
+            <a href="https://www.gcores.com/games/120728"><img class="project-cover"
+                src="images/make_my_parents_laugh.png" alt="make_my_parents_laugh" /></a>
+          </div>
+          <div class="project-description">
+            <h1>如何让你的中国式父母开心</h1>
+            <div class="project-scope">
+              <p class="project-time">Global Game Jam 2024</p>
+              <p class="project-members">五人团队 | 三名程序 | 主程</p>
+            </div>
+            <p>《读空气》like的轻度解谜游戏</p>
+            <p class="project-tags">Godot point-and-click</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <a href="https://www.gcores.com/games/110282"><img class="project-cover" src="images/overlapping_realms.png"
+              alt="overlapping_realms" /></a>
+          <div class="project-description">
+            <h1>叠嶂空间</h1>
+            <div class="project-scope">
+              <p class="project-time">机核BOOOM 2023/08</p>
+              <p class="project-members">三人团队 | 主程</p>
+            </div>
+            <p>3D走路模拟/空间解谜</p>
+            <p class="project-tags">Unity HDRP</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <a href="https://v3.globalgamejam.org/2023/games/ginseng-rush-1"><img class="project-cover"
+              src="images/ginseng_rush.png" alt="ginseng_rush" /></a>
+          <div class="project-description">
+            <h1>Ginseng Rush</h1>
+            <div class="project-scope">
+              <p class="project-time">Global Game Jam 2023</p>
+              <p class="project-members">五人团队 | 三名程序 | 主程</p>
+            </div>
+            <p>幸存者like/塔防</p>
+            <p class="project-tags">Unity 技能树</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <a href="https://v3.globalgamejam.org/2022/games/black-and-white-1"><img class="project-cover"
+              src="images/black_and_white.png" alt="black_and_white" /></a>
+          <div class="project-description">
+            <h1>Black and White</h1>
+            <div class="project-scope">
+              <p class="project-time">Global Game Jam 2022</p>
+              <p class="project-members">四人团队 | 两名程序 | 主程</p>
+            </div>
+            <p>双人合作平台跳跃解谜，一方的障碍是另一方的可通行区域</p>
+            <p class="project-tags">Unity 硬拗物理引擎</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <a href="https://v3.globalgamejam.org/2020/games/table-theseus-1"><img class="project-cover"
+              src="images/table_of_theseus.png" alt="table_of_theseus" /></a>
+          <div class="project-description">
+            <h1>忒休斯之桌</h1>
+            <div class="project-scope">
+              <p class="project-time">Global Game Jam 2020</p>
+              <p class="project-members">六人团队 | 三名程序 | 主程</p>
+            </div>
+            <p>寻找各种物品神经病使用方法的轻度解谜游戏</p>
+            <p class="project-tags">Unity point-and-click</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <a href="https://v3.globalgamejam.org/2019/games/kumagotchi-eat-sleep-compute"><img class="project-cover"
+              src="images/kumagotchi.png" alt="kumagotchi" /></a>
+          <div class="project-description">
+            <h1>Kumagotchi: Eat, Sleep, Compute</h1>
+            <div class="project-scope">
+              <p class="project-time">Global Game Jam 2019</p>
+              <p class="project-members">两人团队 | 主程</p>
+            </div>
+            <p>随机卡牌驱动的拓麻歌子（电子宠物）</p>
+            <p class="project-tags">Unity 卡牌</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <a href="https://github.com/leav/SquareJam18_ThisIsFine"><img class="project-cover"
+              src="images/this_is_fine.png" alt="this_is_fine" /></a>
+          <div class="project-description">
+            <h1>This is Fine</h1>
+            <div class="project-scope">
+              <p class="project-time">Square Game Jam 2018</p>
+              <p class="project-members">三人团队 | 主程</p>
+            </div>
+            <p>推动方块到合适的形状同时要避免服务器失火</p>
+            <p class="project-tags">Unity boardgame</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <a href="https://github.com/leav/Personal-Space"><img class="project-cover" src="images/personal_space.png"
+              alt="personal_space" /></a>
+          <div class="project-description">
+            <h1>Personal Space</h1>
+            <div class="project-scope">
+              <p class="project-time">Columbia Univercity Game Jam 2017</p>
+              <p class="project-members">三人团队 | 两名程序 | 主程</p>
+            </div>
+            <p>跟他人保持不远不近距离坚持到终点</p>
+            <p class="project-tags">Unity navmesh</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <a href="https://v3.globalgamejam.org/2017/games/great-wave-kanagawa"><img class="project-cover"
+              src="images/the_greate_wave_off_kanagawa.png" alt="the_greate_wave_off_kanagawa" /></a>
+          <div class="project-description">
+            <h1>神奈川冲浪里</h1>
+            <div class="project-scope">
+              <p class="project-time">Global Game Jam 2017</p>
+              <p class="project-members">四人团队 | 主程</p>
+            </div>
+            <p>双人同屏对战，看谁在浪里更持♂久</p>
+            <p class="project-tags">Unity 波浪模拟</p>
+          </div>
+        </div>
+
+
+        <div class="project">
+          <a href="https://github.com/leav/battle-of-arshes"><img class="project-cover"
+              src="images/battle_of_arshes.png" alt="battle_of_arshes" /></a>
+          <div class="project-description">
+            <h1>阿尔西斯战记</h1>
+            <div class="project-scope">
+              <p class="project-time">2006</p>
+              <p class="project-members">个人作品</p>
+            </div>
+            <p>日式战棋</p>
+            <p class="project-tags">RMXP 战棋</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
