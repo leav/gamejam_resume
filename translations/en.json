@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "lang": "en",
+    "dir": "ltr",
+    "title": "leav - Game Developer Resume"
+  },
+  "header": {
+    "name": "leav",
+    "alt_name": "大叶纸熊",
+    "role": "Game Developer"
+  },
+  "sections": {
+    "about_me": {
+      "title": "About Me",
+      "content": [
+        "Backend developer (non-gaming industry)",
+        "Regular Game Jam participant and project starter"
+      ]
+    },
+    "recent_games": {
+      "title": "Recently Playing",
+      "content": [
+        "Splatoon 3",
+        "Chrono Ark",
+        "Esports Godfather",
+        "Monster Hunter Wilds",
+        "Backpack Battles"
+      ]
+    },
+    "skills": {
+      "title": "Skills & Experience",
+      "content": [
+        "Godot",
+        "Unity",
+        "Small-scale indie games",
+        "Version control and other programming fundamentals"
+      ]
+    },
+    "learning": {
+      "title": "Want to Learn",
+      "content": [
+        "Advanced rendering pipeline",
+        "Advanced animation pipeline",
+        "Advanced audio pipeline",
+        "AI"
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "discord": "Discord <a href=\"https://discord.com/users/leavthebear\">leavthebear</a>",
+      "gcores": "Gcores <a href=\"https://www.gcores.com/users/324907/talks\">大叶纸熊</a>",
+      "timezone": "PST timezone"
+    },
+    "projects": {
+      "title": "Past Projects"
+    }
+  },
+  "projects": {
+    "lumen": {
+      "title": "Lumen",
+      "time": "GCores BOOOM Jam 2025/05",
+      "members": "3-person team | Programmer",
+      "description": "Leave traces of light and reach the end of all nights with climbers you've never met",
+      "tags": "Godot async-multiplayer walking-simulator"
+    },
+    "sodium_hydrogen_carbonate": {
+      "title": "Sodium Hydrogen Carbonate",
+      "time": "Global Game Jam 2025",
+      "members": "2-person team | Programmer",
+      "description": "Soda shaking competition that won't end until the final explosion sounds!",
+      "tags": "Godot party-game"
+    },
+    "memory_as_new": {
+      "title": "Memory as New",
+      "time": "GCores BOOOM Jam 2024/05",
+      "members": "6-person team | Programmer",
+      "description": "Florence-like interactive narrative game",
+      "tags": "Godot interactive-narrative"
+    },
+    "make_my_parents_laugh": {
+      "title": "How to Make Your Chinese Parents Happy",
+      "time": "Global Game Jam 2024",
+      "members": "5-person team | 3 programmers | Lead programmer",
+      "description": "Kuuki Yomi-like light puzzle game",
+      "tags": "Godot point-and-click"
+    },
+    "overlapping_realms": {
+      "title": "Overlapping Realms",
+      "time": "GCores BOOOM Jam 2023/08",
+      "members": "3-person team | Programmer",
+      "description": "3D walking simulator/spatial puzzle",
+      "tags": "Unity HDRP"
+    },
+    "ginseng_rush": {
+      "title": "Ginseng Rush",
+      "time": "Global Game Jam 2023",
+      "members": "5-person team | 3 programmers | Lead programmer",
+      "description": "Survivor-like/tower defense",
+      "tags": "Unity skill-tree"
+    },
+    "black_and_white": {
+      "title": "Black and White",
+      "time": "Global Game Jam 2022",
+      "members": "4-person team | 2 programmers | Lead programmer",
+      "description": "Co-op platform puzzle where one player's obstacles are the other's walkable areas",
+      "tags": "Unity physics-based"
+    },
+    "table_of_theseus": {
+      "title": "Table of Theseus",
+      "time": "Global Game Jam 2020",
+      "members": "6-person team | 3 programmers | Lead programmer",
+      "description": "Light puzzle game about finding creative uses for everyday objects",
+      "tags": "Unity point-and-click"
+    },
+    "kumagotchi": {
+      "title": "Kumagotchi: Eat, Sleep, Compute",
+      "time": "Global Game Jam 2019",
+      "members": "2-person team | Programmer",
+      "description": "Random card-driven Tamagotchi (virtual pet)",
+      "tags": "Unity card-game"
+    },
+    "this_is_fine": {
+      "title": "This is Fine",
+      "time": "Square Game Jam 2018",
+      "members": "3-person team | Programmer",
+      "description": "Push blocks into the right shape while avoiding server fires",
+      "tags": "Unity board-game"
+    },
+    "personal_space": {
+      "title": "Personal Space",
+      "time": "Columbia University Game Jam 2017",
+      "members": "3-person team | 2 programmers | Lead programmer",
+      "description": "Maintain the right distance from others to reach the finish line",
+      "tags": "Unity navmesh"
+    },
+    "the_great_wave_off_kanagawa": {
+      "title": "The Great Wave off Kanagawa",
+      "time": "Global Game Jam 2017",
+      "members": "4-person team | Programmer",
+      "description": "Local multiplayer battle - see who can last longer in the waves",
+      "tags": "Unity wave-simulation"
+    },
+    "the_memory_of_the_red_chamber": {
+      "title": "Memory of the Red Chamber",
+      "time": "College term project 2012",
+      "members": "7-person team | 2 programmers | Lead programmer",
+      "description": "Dream of the Red Chamber themed AVG",
+      "tags": "RMXP AVG"
+    },
+    "battle_of_arshes": {
+      "title": "Battle of Arshes",
+      "time": "2006",
+      "members": "Solo project",
+      "description": "Japanese-style tactical RPG",
+      "tags": "RMXP tactical-RPG"
+    }
+  }
+}
