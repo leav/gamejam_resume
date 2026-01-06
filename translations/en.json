@@ -2,7 +2,7 @@
   "meta": {
     "lang": "en",
     "dir": "ltr",
-    "title": "leav - Game Developer Resume"
+    "title": "leav - Game Developer"
   },
   "header": {
     "name": "leav",
@@ -14,7 +14,7 @@
       "title": "About Me",
       "content": [
         "Backend developer (non-gaming industry)",
-        "Regular Game Jam participant and project starter"
+        "Regular Game Jam participant"
       ]
     },
     "recent_games": {
