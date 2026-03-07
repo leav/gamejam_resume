@@ -13,7 +13,7 @@
     "about_me": {
       "title": "About Me",
       "content": [
-        "Backend developer (non-gaming industry)",
+        "Full Time Software Engineer",
         "Regular Game Jam participant"
       ]
     },
@@ -34,15 +34,6 @@
         "Unity",
         "Small-scale indie games",
         "Version control and other programming fundamentals"
-      ]
-    },
-    "learning": {
-      "title": "Want to Learn",
-      "content": [
-        "Advanced rendering pipeline",
-        "Advanced animation pipeline",
-        "Advanced audio pipeline",
-        "AI"
       ]
     },
     "contact": {
