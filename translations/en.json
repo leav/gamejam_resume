@@ -46,6 +46,20 @@
     }
   },
   "projects": {
+    "mount_rest": {
+      "title": "Mount Rest",
+      "time": "GCores BOOOM Jam 2026/05",
+      "members": "2-person team | Programmer",
+      "description": "A metroidvania adventure devoid of combat. Your sole mission is to collect the scattered fragments and restore the ancient stele.",
+      "tags": "Godot metroidvania"
+    },
+    "cygnus": {
+      "title": "Cygnus IV.III",
+      "time": "GCores BOOOM Jam 2026/05",
+      "members": "SOLO",
+      "description": "As an Ecosystem Architect deployed by a major corporation, you are sent to the distant planet Cygnus IV.III to terraform it into a livable world...",
+      "tags": "Godot interactive-narrative"
+    },
     "lumen": {
       "title": "Lumen",
       "time": "GCores BOOOM Jam 2025/05",
@@ -140,7 +154,7 @@
     "battle_of_arshes": {
       "title": "Battle of Arshes",
       "time": "2006",
-      "members": "Solo project",
+      "members": "SOLO",
       "description": "Japanese-style tactical RPG",
       "tags": "RMXP tactical-RPG"
     }
