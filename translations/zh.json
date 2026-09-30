@@ -55,84 +55,84 @@
     },
     "mount_rest": {
       "title": "休止山",
-      "time": "机核BOOOM 2026/05",
+      "time": "机核BOOOM 2026/05 \"视界限\"",
       "members": "两人团队 | 程序",
       "description": "一个类银河恶魔城游戏，玩家需要收集碎片，去修复石碑。",
       "tags": "Godot 类银"
     },
     "cygnus": {
       "title": "天鹅座 IV.III",
-      "time": "机核BOOOM 2026/05",
+      "time": "机核BOOOM 2026/05 \"视界限\"",
       "members": "SOLO",
       "description": "你作为大厂的一员，被派往一个遥远的星系开始行星改造工作……",
       "tags": "Godot 互动叙事"
     },
     "lumen": {
       "title": "留光",
-      "time": "机核BOOOM 2025/05",
+      "time": "机核BOOOM 2025/05 \"奉献\"",
       "members": "三人团队 | 程序",
       "description": "留下光之印记，与素未谋面的攀登者一起抵达所有黑夜的尽头",
       "tags": "Godot 多人异步网络 行走模拟器"
     },
     "sodium_hydrogen_carbonate": {
       "title": "碳酸氢钠",
-      "time": "Global Game Jam 2025",
+      "time": "Global Game Jam 2025 \"Bubble\"",
       "members": "两人团队 | 程序",
       "description": "直到最终的爆炸声鸣响之前都不会结束的摇汽水竞技！",
       "tags": "Godot party-game"
     },
     "memory_as_new": {
       "title": "记忆犹新",
-      "time": "机核BOOOM 2024/05",
+      "time": "机核BOOOM 2024/05 \"副作用\"",
       "members": "六人团队 | 程序",
       "description": "《Florence》like的互动叙事游戏",
       "tags": "Godot 互动叙事"
     },
     "make_my_parents_laugh": {
       "title": "如何让你的中国式父母开心",
-      "time": "Global Game Jam 2024",
+      "time": "Global Game Jam 2024 \"Make me Laugh\"",
       "members": "五人团队 | 三名程序 | 主程",
       "description": "《读空气》like的轻度解谜游戏",
       "tags": "Godot point-and-click"
     },
     "overlapping_realms": {
       "title": "叠嶂空间",
-      "time": "机核BOOOM 2023/08",
+      "time": "机核BOOOM 2023/08 \"错位的边界\"",
       "members": "三人团队 | 程序",
       "description": "3D走路模拟/空间解谜",
       "tags": "Unity HDRP"
     },
     "ginseng_rush": {
       "title": "Ginseng Rush",
-      "time": "Global Game Jam 2023",
+      "time": "Global Game Jam 2023 \"Roots\"",
       "members": "五人团队 | 三名程序 | 主程",
       "description": "幸存者like/塔防",
       "tags": "Unity 技能树"
     },
     "black_and_white": {
       "title": "Black and White",
-      "time": "Global Game Jam 2022",
+      "time": "Global Game Jam 2022 \"Duality\"",
       "members": "四人团队 | 两名程序 | 主程",
       "description": "双人合作平台跳跃解谜，一方的障碍是另一方的可通行区域",
       "tags": "Unity 硬拗物理引擎"
     },
     "table_of_theseus": {
       "title": "忒休斯之桌",
-      "time": "Global Game Jam 2020",
+      "time": "Global Game Jam 2020 \"Repair\"",
       "members": "六人团队 | 三名程序 | 主程",
       "description": "寻找各种物品神经病使用方法的轻度解谜游戏",
       "tags": "Unity point-and-click"
     },
     "kumagotchi": {
       "title": "Kumagotchi: Eat, Sleep, Compute",
-      "time": "Global Game Jam 2019",
+      "time": "Global Game Jam 2019 \"What Home Means to You\"",
       "members": "两人团队 | 程序",
       "description": "随机卡牌驱动的拓麻歌子（电子宠物）",
       "tags": "Unity 卡牌"
     },
     "this_is_fine": {
       "title": "This is Fine",
-      "time": "Square Game Jam 2018",
+      "time": "Square Game Jam 2018 \"Square\"",
       "members": "三人团队 | 程序",
       "description": "推动方块到合适的形状同时要避免服务器失火",
       "tags": "Unity boardgame"
@@ -146,7 +146,7 @@
     },
     "the_great_wave_off_kanagawa": {
       "title": "神奈川冲浪里",
-      "time": "Global Game Jam 2017",
+      "time": "Global Game Jam 2017 \"Waves\"",
       "members": "四人团队 | 程序",
       "description": "双人同屏对战，看谁在浪里更持♂久",
       "tags": "Unity 波浪模拟"
