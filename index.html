@@ -7,7 +7,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-14QHVK4M95"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-14QHVK4M95');
@@ -212,10 +212,10 @@
       display: flex;
       gap: 10px;
     }
-    
+
     .lang-btn {
       padding: 8px 12px;
-      background: rgba(0,0,0,0.7);
+      background: rgba(0, 0, 0, 0.7);
       color: white;
       border: none;
       border-radius: 4px;
@@ -223,15 +223,15 @@
       font-size: 14px;
       transition: background-color 0.2s ease;
     }
-    
+
     .lang-btn.active {
       background: #359676BB;
     }
-    
+
     .lang-btn:hover {
-      background: rgba(0,0,0,0.9);
+      background: rgba(0, 0, 0, 0.9);
     }
-    
+
     .lang-btn.active:hover {
       background: #2d7a61;
     }
@@ -247,7 +247,8 @@
 
     /* Adjust layout for different text lengths */
     [data-i18n-lang="en"] .top-right-name {
-      font-size: 56px; /* Smaller for potentially longer English names */
+      font-size: 56px;
+      /* Smaller for potentially longer English names */
     }
   </style>
 </head>
@@ -268,7 +269,8 @@
       </div>
       <div class="container top-right right">
         <div class="top-right-content">
-          <p class="top-right-name"><a class="name-link" href="https://leav.github.io/gamejam_resume/" target="_blank" rel="noopener noreferrer" data-i18n="header.name">大叶纸熊</a></p>
+          <p class="top-right-name"><a class="name-link" href="https://leav.github.io/gamejam_resume/" target="_blank"
+              rel="noopener noreferrer" data-i18n="header.name">大叶纸熊</a></p>
           <p class="top-right-alt" data-i18n="header.alt_name">leav</p>
           <p class="top-right-role" data-i18n="header.role">程序熊</p>
         </div>
@@ -304,8 +306,10 @@
 
         <div class="section">
           <h1 data-i18n="sections.contact.title">联系方式</h1>
-					<p data-i18n="sections.contact.discord" data-i18n-html>Discord <a href="https://discord.com/users/leavthebear">leavthebear</a></p>
-					<p data-i18n="sections.contact.gcores" data-i18n-html>机核 <a href="https://www.gcores.com/users/324907/talks">大叶纸熊</a></p>
+          <p data-i18n="sections.contact.discord" data-i18n-html>Discord <a
+              href="https://discord.com/users/leavthebear">leavthebear</a></p>
+          <p data-i18n="sections.contact.gcores" data-i18n-html>机核 <a
+              href="https://www.gcores.com/users/324907/talks">大叶纸熊</a></p>
           <p style="margin-top:0.5em" data-i18n="sections.contact.timezone">美西时区</p>
         </div>
 
@@ -319,8 +323,24 @@
 
         <div class="project">
           <div class="project-cover">
-            <a href="https://www.gcores.com/games/179859"><img class="project-cover"
-                src="images/mount_rest.png" alt="lumen" /></a>
+            <a href="https://www.gcores.com/games/181550"><img class="project-cover"
+                src="images/frontal_lobe_challenge.png" alt="frontal_lobe_challenge" /></a>
+          </div>
+          <div class="project-description">
+            <h1 data-i18n="projects.frontal_lobe_challenge.title">前额叶挑战</h1>
+            <div class="project-scope">
+              <p class="project-time" data-i18n="projects.frontal_lobe_challenge.time">2026/09</p>
+              <p class="project-members" data-i18n="projects.frontal_lobe_challenge.members">SOLO</p>
+            </div>
+            <p data-i18n="projects.frontal_lobe_challenge.description">前额叶挑战小游戏</p>
+            <p class="project-tags" data-i18n="projects.frontal_lobe_challenge.tags">Godot 休闲</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-cover">
+            <a href="https://www.gcores.com/games/179859"><img class="project-cover" src="images/mount_rest.png"
+                alt="lumen" /></a>
           </div>
           <div class="project-description">
             <h1 data-i18n="projects.mount_rest.title">休止山</h1>
@@ -335,8 +355,8 @@
 
         <div class="project">
           <div class="project-cover">
-            <a href="https://www.gcores.com/games/179738"><img class="project-cover"
-                src="images/cygnus.png" alt="lumen" /></a>
+            <a href="https://www.gcores.com/games/179738"><img class="project-cover" src="images/cygnus.png"
+                alt="lumen" /></a>
           </div>
           <div class="project-description">
             <h1 data-i18n="projects.cygnus.title">天鹅座 IV.III</h1>
@@ -349,10 +369,10 @@
           </div>
         </div>
 
-				<div class="project">
+        <div class="project">
           <div class="project-cover">
-            <a href="https://www.gcores.com/games/148178"><img class="project-cover"
-                src="images/lumen.png" alt="lumen" /></a>
+            <a href="https://www.gcores.com/games/148178"><img class="project-cover" src="images/lumen.png"
+                alt="lumen" /></a>
           </div>
           <div class="project-description">
             <h1 data-i18n="projects.lumen.title">留光</h1>
@@ -382,19 +402,19 @@
         </div>
 
         <div class="project">
-            <div class="project-cover">
-              <a href="https://www.gcores.com/games/126476"><img class="project-cover"
-                  src="images/memory_as_new.png" alt="memory_as_new" /></a>
+          <div class="project-cover">
+            <a href="https://www.gcores.com/games/126476"><img class="project-cover" src="images/memory_as_new.png"
+                alt="memory_as_new" /></a>
+          </div>
+          <div class="project-description">
+            <h1 data-i18n="projects.memory_as_new.title">记忆犹新</h1>
+            <div class="project-scope">
+              <p class="project-time" data-i18n="projects.memory_as_new.time">机核BOOOM 2024/05</p>
+              <p class="project-members" data-i18n="projects.memory_as_new.members">六人团队 | 程序</p>
             </div>
-            <div class="project-description">
-              <h1 data-i18n="projects.memory_as_new.title">记忆犹新</h1>
-              <div class="project-scope">
-                <p class="project-time" data-i18n="projects.memory_as_new.time">机核BOOOM 2024/05</p>
-                <p class="project-members" data-i18n="projects.memory_as_new.members">六人团队 | 程序</p>
-              </div>
-              <p data-i18n="projects.memory_as_new.description">《Florence》like的互动叙事游戏</p>
-              <p class="project-tags" data-i18n="projects.memory_as_new.tags">Godot 互动叙事</p>
-            </div>
+            <p data-i18n="projects.memory_as_new.description">《Florence》like的互动叙事游戏</p>
+            <p class="project-tags" data-i18n="projects.memory_as_new.tags">Godot 互动叙事</p>
+          </div>
         </div>
 
         <div class="project">

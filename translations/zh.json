@@ -46,6 +46,13 @@
     }
   },
   "projects": {
+    "frontal_lobe_challenge": {
+      "title": "前额叶挑战",
+      "time": "2026/09",
+      "members": "SOLO",
+      "description": "前额叶挑战小游戏",
+      "tags": "Godot 休闲"
+    },
     "mount_rest": {
       "title": "休止山",
       "time": "机核BOOOM 2026/05",

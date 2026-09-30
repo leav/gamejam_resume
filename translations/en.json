@@ -46,6 +46,13 @@
     }
   },
   "projects": {
+    "frontal_lobe_challenge": {
+      "title": "Frontal Lobe Challenge",
+      "time": "2026/09",
+      "members": "SOLO",
+      "description": "A casual mini-game about inhibiting the wrong impulse as the rules keep changing.",
+      "tags": "Godot casual"
+    },
     "mount_rest": {
       "title": "Mount Rest",
       "time": "GCores BOOOM Jam 2026/05",
